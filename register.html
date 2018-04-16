@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/register.css">
+		<script type="text/javascript" src="js/require.js" aync="true" data-main="js/register" defer></script>
+	</head>
+<body>
+	<section>
+
+		<img src="../images/login/milogo.png">
+		<h3>注册小米账号</h3>
+		<form class="form" action="../php/register.php" method="post">
+			<h4>用户名</h4>
+			<input type="text" id="username" placeholder="用户名" name="username"/></br>
+			<p id="notice">6~18个字符，可使用字母、数字、下划线，需以字母开头</p>
+			<input type="password" id="psw" placeholder="密码" name="psw" /></br>
+			<p id="notice1">6~16个字符，区分大小写</p>
+			<input type="password" id="repsw" name="repsw" placeholder="确认密码">
+			<p id="notice2">请再次填写密码</p>
+			<input type="submit" id="btn_r" value="立即注册">
+			<p>注册帐号即表示您同意并愿意遵守小米 <a href="#">用户协议</a>和 <a href="#">隐私政策</a></p>
+
+		</form>
+
+	</section>
+	<footer>
+		<p>
+			<a href="#">简体</a>
+			<a href="#">繁体</a>
+			<a href="#">English</a>
+			<a href="#">常见问题</a>
+		</p>
+		<p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+	</footer>
+</body>
+</html>
